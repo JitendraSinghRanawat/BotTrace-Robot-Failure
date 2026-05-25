@@ -81,7 +81,7 @@ Failure type is detected
 Dashboard displays graphs and replay
         ↓
 User understands why the robot failed
-
+```
 ## Dashboard Preview
 
 ### Robot Log Data
