@@ -66,6 +66,19 @@ BotTrace-Robot-Failure-Replay-System/
 ├── README.md
 └── requirements.txt
 ```
+## Current Version
+
+This is the first prototype of BotTrace.  
+In this version, I used sample robot log data to test the failure detection logic and dashboard.
+
+The next version will include Arduino-based real-time data logging.
+
+## Why I Built This
+
+While working on small robotics projects, I noticed that debugging robot failures is difficult.  
+When a robot stops or moves incorrectly, it is hard to know whether the issue came from the battery, sensor, motor, or movement logic.
+
+So I built BotTrace as a simple robot failure replay and debugging tool.
 
 ## Full project flow
 
