@@ -65,7 +65,7 @@ BotTrace-Robot-Failure-Replay-System/
 │   └── current_status.png
 ├── README.md
 └── requirements.txt
-'''
+```
 
 ## Full project flow
 
