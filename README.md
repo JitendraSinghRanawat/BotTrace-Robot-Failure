@@ -69,14 +69,35 @@ BotTrace-Robot-Failure-Replay-System/
 
 ## Full project flow
 
+```text
 CSV robot data
         ↓
 failure_detector.py reads data
         ↓
-Python checks battery, motor, distance, tilt
+Python checks battery, motor, distance, and tilt
         ↓
 Failure type is detected
         ↓
 Dashboard displays graphs and replay
         ↓
-User understands why robot failed
+User understands why the robot failed
+
+## Dashboard Preview
+
+### Robot Log Data
+![Robot Log Data](images/dashboard_home.png)
+
+### Failure Summary
+![Failure Summary](images/failure_summary.png)
+
+### Battery and Distance Graphs
+![Graphs](images/graphs.png)
+
+### Motor Speed Graph
+![Motor Speed Graph](images/motor_speed_graph.png)
+
+### Robot Position Replay
+![Robot Replay](images/robot_replay.png)
+
+### Current Robot Status
+![Current Status](images/current_status.png)
