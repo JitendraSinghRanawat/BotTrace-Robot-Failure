@@ -1,6 +1,6 @@
 # BotTrace: Robot Failure Replay System
 
-BotTrace is a robot black-box style debugging system. It records robot movement data, detects failure points, and replays robot behavior using a Python dashboard.
+BotTrace is a robot black-box style failure replay system that detects robot failures from log data and visualizes them using a Streamlit dashboard.
 
 ---
 
